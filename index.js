@@ -61,7 +61,6 @@ let button = createButton();
 let bubble = createBubble();
 
 document.addEventListener("click", (event) => {
-    event.preventDefault()
     button.hidden = false;
     bubble.hidden = true;
 });
