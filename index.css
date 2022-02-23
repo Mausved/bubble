@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.allDiv {
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+
+.bubble {
+    color: #fafafa;
+    background: linear-gradient(45deg, #2190B3, #B8E3E4);
+    font-family: "Roboto Thin", serif;
+    border-radius: 200px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[hidden] {
+    display: none;
+}
